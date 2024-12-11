@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
+</head>
+<body>
+  
+
+<script>
+
+  //  Function to check if a number is even
+function isEven(number) {
+  console.log(number % 2 === 0);
+}
+isEven(8);
+
+
+//Function to ConvertToFahrenheit
+function convertToFahrenheit (celcius) {
+    console.log((celcius * 9/5) + 32);
+}
+convertToFahrenheit(25);
+
+
+
+  //Function for division
+  function divide (num1, num2) {
+    console.log(num1 / num2);
+  }
+  divide(3000, 50);
+
+//Function to subtract a number
+
+const fn = function subtract (n1, n2) {
+    return n1 - n2;
+}
+console.log(fn (50,2));
+
+
+//  Function to check if a number is odd
+
+function isOdd(number) {
+  console.log(number % 2 === 1)
+}
+isOdd(8);
+
+
+//function to greet user
+function greet (name) {
+    console.log(`Hello ${name}`);
+}
+
+greet('Jack');
+
+
+
+// function to square a number
+function square(num) {
+  console.log(num * num);
+}
+square(5);
+
+//function for squareRoot
+let squareRoot = Math.sqrt(5);
+console.log('Square Root of 5 is', squareRoot);
+
+
+
+//function for power
+let power = Math.pow (3, 3);
+console.log('3 to the power of 3 is', power);
+
+
+
+//Function to ConvertToFahrenheit
+function convertToFahrenheit (celcius) {
+    console.log((celcius * 9/5) + 32);
+}
+convertToFahrenheit(25);
+
+
+
+
+//Function to Calculate percentage 
+function calculatePercent (parameter, percentage) {
+  console.log(parameter * percentage )
+ }
+
+ calculatePercent (2000, 0.1);
+ 
+
+
+
+//Function to ConvertToCelcius
+function convertToCelcius(fahrenheit) {
+   console.log((fahrenheit - 32)* 5/9);
+}
+convertToCelcius(25);
+convertToCelcius(55);
+convertToCelcius(86);
+
+
+
+// Function to calculate the factorial of a number
+const factorial = function(num) {
+  let result = 2;
+  for (let i = 2; i <= num; i++) {
+    result *= i;
+  }
+  console.log(result);
+};
+factorial(12);
+
+
+//  Function to find the length of a string
+const lengthOfString = (str) => console.log(str.length);
+lengthOfString('Hello World');
+
+
+// Function to add two numbers
+const add = (a, b) => console.log(a + b);
+add(15, 20);
+
+
+// Function to greet a user => arrow function
+const greetUser = (name) => console.log(`Hello, ${name}!`);
+greetUser('Ben');
+
+
+// Function for calculating the cube of a number
+const cube = (num) => console.log(num ** 3);
+cube(3);
+
+
+// Function to find the larger of two numbers
+const findMax = function(a, b) {
+  console.log(a > b ? a : b);
+};
+findMax(15, 9);
+
+
+// Function to reverse a string
+const reverseString = function(str) {
+  console.log(str.split('').reverse().join(''));
+};
+reverseString('Function');
+
+
+// Function to double a number
+const double = function(num) {
+  console.log(num * 2);
+};
+double(7);
+
+// Function to print a favorite quote
+function favoriteQuote(quote) {
+  console.log(`My favorite quote is ${quote}.`);
+}
+favoriteQuote('Everybody should learn to program a computer because it teaches you how to think');
+
+
+
+//Function to calculate the area of a rectangle
+function area(length, width) {
+  console.log(length * width);
+}
+area(5, 10);
+
+</script>
+</body>
+
+</html>
